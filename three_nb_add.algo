@@ -1,0 +1,23 @@
+ALGORITHM iterative_algo
+VAR
+    sentence_count : INTEGER;= 0;
+    word_count : INTEGER := 0;
+    vowel_count : INTEGER :=0;
+BEGIN
+    
+    FOR i FROM 0 TO "." STEP step: = 1  DO
+    if (sentence_count) THEN
+        CHAR_count 0 = CHAR_count +1 
+    END_FOR
+
+    FOR i FROM 0 TO "." STEP step: = 1  DO
+    if (word_count) THEN
+        word_count 0 = word_count +1 
+    END_FOR
+
+    FOR i FROM 0 TO "." STEP step: = 1  DO
+    if (vowel_count) THEN
+        vowel_count 0 = vowel_count +1 
+    END_FOR
+END
+

@@ -15,9 +15,7 @@ BEGIN
         word_count: 0 = word_count +1 
     END_FOR
 
-    FOR i FROM 0 TO "." STEP step: = 1  DO
-    if (vowel_count) THEN
-        vowel_count: 0 = vowel_count +1 
+   
     END_FOR
 END
 
